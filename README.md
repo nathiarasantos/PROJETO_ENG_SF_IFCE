@@ -3,7 +3,7 @@
 
 ## 📄 Arquivo de Justificativa (docs/justificativa.md)
 
-Agora vou criar o arquivo específico com a justificativa que você pediu, já personalizado para a equipe:
+
 
 ```markdown
 # 📋 Justificativa do Sistema de Controle de Estoque
@@ -157,5 +157,5 @@ O Sistema de Controle de Estoque **NÃO é uma "casinha"** que pode ser constru�
 4. **Testes rigorosos** (controle de qualidade)
 5. **Documentação completa** (manual do prédio)
 
-Programar bem é essencial, mas sem análise de negócio, arquitetura, UX, testes e gestão de projeto, o sistema será frágil, inseguro e insustentável a longo prazo.
+
 
