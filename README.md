@@ -22,6 +22,4 @@ O desenvolvimento será totalmente controlado pelo Git utilizando o fluxo de ram
 
 ### C. Padronização de Nomes e Formatação
 Manteremos a coesão estética e técnica no código e na organização do projeto.
-*   *Exemplo prático:* No código, utilizaremos a convenção *camelCase* para nomenclatura em inglês (ex: `productQuantity`, `imeiCode`). No Git, adotaremos mensagens de commit estruturadas e descritivas (ex: `"adiciona justificativa da parte 2"`, `"corrige bug de baixa no estoque"`), seguindo à risca as diretrizes recomendadas pela disciplina [2].
-
 ---
