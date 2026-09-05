@@ -168,3 +168,8 @@ Para organizar o sistema de controle de estoque podemos dividi-lo em módulos, c
 - **Fornecedores:** cadastro e consulta das informações dos fornecedores.
 - **Vendas:** registro das vendas e comunicação com o estoque para atualizar as quantidades.
 - **Usuários:** controle de acesso ao sistema e das funções de cada usuário.
+
+
+A modularidade permite separar as responsabilidades do sistema, facilitando a manutenção e evitando que uma alteração em uma parte afete desnecessariamente as outras.
+
+A abstração permite esconder os detalhes internos de cada módulo e disponibilizar apenas as operações necessárias. Por exemplo, o módulo de vendas pode solicitar a baixa de um produto no estoque sem precisar conhecer como o controle interno dessa quantidade é realizado.
