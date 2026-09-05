@@ -158,4 +158,13 @@ O Sistema de Controle de Estoque **NÃO é uma "casinha"** que pode ser constru�
 5. **Documentação completa** (manual do prédio)
 
 
+## 3. Princípios de Engenharia de Software
+### Modularidade e abstração
 
+Para organizar o sistema de controle de estoque podemos dividi-lo em módulos, cada um com uma responsabilidade específica. Os principais módulos seriam:
+
+- **Produtos:** cadastro e consulta dos produtos, categorias, preços e quantidades.
+- **Estoque:** controle das entradas e saídas e atualização das quantidades disponíveis.
+- **Fornecedores:** cadastro e consulta das informações dos fornecedores.
+- **Vendas:** registro das vendas e comunicação com o estoque para atualizar as quantidades.
+- **Usuários:** controle de acesso ao sistema e das funções de cada usuário.
