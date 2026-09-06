@@ -1,161 +1,94 @@
+Sistema de Controle de Estoque
+Informações do projeto
+
+Projeto: Sistema de Controle de Estoque para uma loja de eletrônicos de médio porte
+Disciplina: Engenharia de Software 1
+Professor: Kaio Jonathas
+
+Equipe
+Adna Cecilia
+Augusto Saul
+Mário Melo
+Fernando de Carvalho
+Nathiara Santos
 
 
 
-## 📄 Arquivo de Justificativa (docs/justificativa.md)
+1. Justificativa do sistema
 
+O grupo escolheu desenvolver um Sistema de Controle de Estoque para uma loja de eletrônicos de médio porte.
 
+O sistema se aproxima da ideia de um “prédio”, apresentada em sala, pois possui diferentes responsabilidades e precisa ser organizado para permitir manutenção e evolução.
 
-```markdown
-# 📋 Justificativa do Sistema de Controle de Estoque
+A loja trabalha com produtos de alto valor e que podem sofrer rápida obsolescência. Por isso, é importante manter um controle adequado das entradas, saídas e quantidades disponíveis em estoque.
 
-**Projeto:** Sistema de Controle de Estoque para Loja de Médio Porte  
-**Equipe:** Adna Cecilia, Mário Melo, Nando, Nathiara Santos, Saul  
-**Disciplina:** Conceitos e Contextualização  
-**Data:** Setembro/2026
+Tamanho e complexidade
 
----
+O sistema teria uma complexidade média, pois envolveria diferentes funcionalidades e responsabilidades relacionadas ao controle de estoque de uma loja de eletrônicos.
 
-## 🎯 Contexto e Objetivo
+Quantas pessoas utilizariam o sistema?
 
-Este documento tem como objetivo justificar a abordagem escolhida para o desenvolvimento do sistema de controle de estoque, utilizando a analogia **"casinha x prédio"** estudada em sala de aula. A justificativa serve como base para o planejamento do projeto e para alinhar a equipe sobre a complexidade e os desafios envolvidos.
+O sistema poderia atender aproximadamente 10 a 27 usuários simultaneamente, considerando diferentes funções dentro da loja, como:
 
----
+Operadores de caixa: registro de vendas e movimentações;
+Estoquistas: controle de entradas e saídas de produtos;
+Compradores: acompanhamento e reposição de estoque;
+Gerentes: acompanhamento das informações do estoque;
+Administradores: gerenciamento do sistema e dos usuários.
+Quantas pessoas trabalhariam no sistema ao longo do tempo?
 
-## 🏠 "Casinha" x 🏢 "Prédio": Onde nosso sistema se encaixa?
+O desenvolvimento inicial seria realizado pelos 5 integrantes do grupo. Ao longo do tempo, o sistema poderia receber manutenção e evolução por uma equipe responsável por corrigir problemas e adicionar novas funcionalidades conforme as necessidades da loja.
 
-### Analogia aplicada
+Riscos de um desenvolvimento sem planejamento
 
-| Característica | Casinha | Prédio (NOSSO SISTEMA) |
-|----------------|---------|------------------------|
-| **Tamanho** | Pequeno, poucos cômodos | Grande, múltiplos andares e setores |
-| **Complexidade** | Baixa, estrutura simples | Média-alta, com muitas interconexões |
-| **Planejamento** | Rápido, improvisado | Detalhado, com plantas e engenheiros |
-| **Manutenção** | Feita por 1 pessoa | Exige equipe especializada |
-| **Evolução** | Difícil de expandir | Projetado para crescer |
-| **Usuários** | 1-2 pessoas | 10-50 pessoas simultâneas |
+Se o sistema fosse desenvolvido de forma artesanal, poderiam ocorrer problemas como:
 
----
+inconsistência nas quantidades de produtos;
+erros no registro de entradas e saídas;
+dificuldade para corrigir ou alterar funcionalidades;
+perda de informações;
+problemas de acesso às funções do sistema.
 
-## 1️⃣ Que tamanho e complexidade esse sistema provavelmente teria?
+Por isso, o planejamento e a aplicação de boas práticas são importantes para o desenvolvimento do sistema.
 
-O sistema de controle de estoque se enquadra como um **prédio comercial de médio porte** pelos seguintes motivos:
+2. Princípios de Engenharia de Software
 
-### 📊 Dimensionamento Técnico
+Modularidade e abstração
 
-- **Módulos envolvidos:**
-  - Produtos e Categorias
-  - Fornecedores
-  - Clientes
-  - Movimentações de Estoque (entrada/saída)
-  - Vendas e PDV
-  - Relatórios Gerenciais
-  - Usuários e Permissões
-  - Nota Fiscal Eletrônica (NF-e)
-  - Integrações externas
+Para organizar o sistema de controle de estoque, podemos dividi-lo em módulos, cada um com uma responsabilidade específica. Os principais módulos seriam:
 
-- **Regras de negócio complexas:**
-  - Cálculo de estoque mínimo e ponto de reposição
-  - Controle de lotes e datas de validade
-  - Curva ABC de produtos
-  - Cálculo automático de impostos
-  - Giro de estoque e margem de lucro
+Produtos: cadastro e consulta dos produtos, categorias, preços e quantidades.
+Estoque: controle das entradas e saídas e atualização das quantidades disponíveis.
+Fornecedores: cadastro e consulta das informações dos fornecedores.
+Vendas: registro das vendas e comunicação com o estoque para atualizar as quantidades.
+Usuários: controle de acesso ao sistema e das funções de cada usuário.
 
-- **Integrações necessárias:**
-  - Sistema de pagamento (TEF)
-  - Impressoras fiscais
-  - Nota Fiscal Eletrônica (NF-e)
-  - Futuro e-commerce
+A modularidade permite separar as responsabilidades do sistema, facilitando a manutenção e evitando que uma alteração em uma parte afete desnecessariamente as outras.
 
-### 📈 Estimativa de Complexidade
-Complexidade: (Média-Alta: 7/10)
-Tamanho de Código: ~50.000 - 100.000 linhas
-Banco de Dados: 15-20 tabelas inter-relacionadas
-Tempo de Desenvolvimento: 4-6 meses (MVP)
+A abstração permite esconder os detalhes internos de cada módulo e disponibilizar apenas as operações necessárias. Por exemplo, o módulo de vendas pode solicitar a baixa de um produto no estoque sem precisar conhecer como o controle interno dessa quantidade é realizado.
 
-2️⃣ Quantas pessoas usariam, e quantas pessoas provavelmente trabalhariam nele ao longo do tempo?
+Qualidade de software
 
-### 👥 Usuários Finais
+Entre os atributos de qualidade de software estudados, os mais importantes para esse sistema são funcionalidade, confiabilidade e usabilidade.
 
-| Perfil | Quantidade | Função |
-|--------|------------|--------|
-| Operadores de Caixa | 5-15 | Registrar vendas, movimentações |
-| Estoquistas | 2-5 | Controlar entradas/saídas físicas |
-| Compradores | 1-2 | Gerenciar reposição de estoque |
-| Gerentes | 1-3 | Acompanhar relatórios e metas |
-| Administradores | 1-2 | Configurar sistema e permissões |
-| **TOTAL** | **10-27 simultâneos** | |
+Funcionalidade: o sistema deve realizar corretamente as tarefas para as quais foi desenvolvido, como cadastrar produtos e controlar entradas e saídas.
+Confiabilidade: o sistema deve funcionar de forma estável, evitando falhas e inconsistências nas informações do estoque.
+Usabilidade: o sistema deve ser fácil de entender e utilizar pelos funcionários.
 
-### 👨‍💻 Equipe de Desenvolvimento
+Os demais atributos também são importantes. A eficiência contribui para um bom desempenho, a manutenibilidade facilita correções e melhorias futuras, e a portabilidade permite que o sistema seja utilizado em diferentes ambientes.
 
+Manutenibilidade e evolução
 
+A manutenção mais provável nos primeiros anos será a manutenção evolutiva, pois novas necessidades podem surgir conforme a loja utiliza o sistema.
 
-3️⃣ O que poderia dar errado se ele fosse construído de forma "artesanal", sem processo, sem planejamento?
+Por exemplo, inicialmente o sistema pode controlar apenas o cadastro de produtos e as entradas e saídas. Após algum tempo de uso, a loja pode identificar a necessidade de receber um alerta quando determinado produto estiver abaixo de uma quantidade mínima definida.
 
-### 🚨 Riscos e Impactos
+Dessa forma, o sistema deve ser desenvolvido de maneira que novas funcionalidades possam ser adicionadas sem causar alterações desnecessárias nas demais partes.
 
-| Risco | Consequência | Impacto |
-|-------|--------------|---------|
-| **Inconsistência de dados** | Produto baixado do estoque sem ser vendido ou vice-versa | Prejuízo financeiro e perda de credibilidade |
-| **Erros fiscais** | Cálculo incorreto de impostos | Multas da Receita Federal e problemas legais |
-| **Falta de rastreabilidade** | Não saber quais clientes compraram lote defeituoso | Risco à saúde, processos judiciais |
-| **Código monolítico** | Mudança em um módulo quebra outro | Sistema para de funcionar do nada |
-| **Segurança frágil** | Senhas expostas, permissões incorretas | Roubo de mercadorias virtuais |
-| **Performance ruim** | Caixa espera 3 segundos para registrar item | Filas enormes, perda de vendas |
-| **Sem backup** | Perda de dados em queda de energia | Recuperação impossível, loja para |
+Boas práticas gerais
 
+Algumas boas práticas serão utilizadas durante o desenvolvimento:
 
- 4️⃣ Por que programar bem não seria suficiente para esse sistema específico?
-
-Programar bem (código limpo, boas práticas, padrões de projeto) é **necessário mas NÃO SUFICIENTE**. Veja por quê:
-
-### 🔍 Domínio de Negócio
-
-> *"Um excelente programador pode criar um código perfeito que resolve o problema errado"*
-
-**Exemplo:** O programador pode criar um sistema de estoque impecável tecnicamente, mas se não entender:
-- Como funciona a **curva ABC** de produtos
-- O que é **estoque de segurança**
-- Como calcular **margem de lucro** considerando impostos
-
-...o sistema será inútil para o gestor da loja.
-
-### 🏗️ Arquitetura e Integrações
-
-O sistema não existe isolado. Ele precisa se comunicar com:
-┌──────────────┐ ┌──────────────┐
-│ Sistema de │◄────►│ Impressora │
-│ Estoque │ │ Fiscal │
-└──────────────┘ └──────────────┘
-│
-▼
-┌──────────────┐ ┌──────────────┐
-│ TEF/Pagto │◄────►│ E-commerce │
-└──────────────┘ └──────────────┘
-
- 📊 Resumo: Por que isso é um "PRÉDIO"?
-
-| Critério | Justificativa |
-|----------|---------------|
-| **Tamanho** | Múltiplos módulos, 50k+ linhas de código |
-| **Complexidade** | Regras fiscais, integrações, performance crítica |
-| **Equipe** | 5 pessoas no desenvolvimento, 3 na manutenção |
-| **Usuários** | 10-50 simultâneos, perfis variados |
-| **Riscos** | Financeiros, legais, operacionais graves |
-| **Planejamento** | Essencial para evitar falhas catastróficas |
-
----
-
-## ✅ Conclusão
-
-O Sistema de Controle de Estoque **NÃO é uma "casinha"** que pode ser construída de forma artesanal por um único desenvolvedor em poucos dias.
-
-É um **"PRÉDIO"** que exige:
-
-1. **Planejamento arquitetural** (plantas)
-2. **Equipe multidisciplinar** (engenheiros especializados)
-3. **Processos definidos** (metodologia de construção)
-4. **Testes rigorosos** (controle de qualidade)
-5. **Documentação completa** (manual do prédio)
-
-
-
+Documentação: registrar decisões importantes e informações necessárias para compreender o projeto.
+Versionamento: utilizar o Git para registrar as alterações, permitindo acompanhar o desenvolvimento e trabalhar de forma organizada entre os integrantes.
+Padronização: manter padrões de nomes, formatação e organização dos arquivos para facilitar a compreensão e a manutenção do projeto.
