@@ -1,0 +1,5 @@
+git add .
+git commit -m "docs: preenche dinâmica de requisitos da Semana 2" -m "- Adiciona personas dos integrantes
+- Registra respostas das quatro entrevistas
+- Documenta conflito, mediação e decisão do mini-workshop
+- Consolida requisitos funcionais (RF01–RF12) e não funcionais (RNF01–RNF08)"
