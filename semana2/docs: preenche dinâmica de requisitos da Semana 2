@@ -1,5 +1,198 @@
-git add .
-git commit -m "docs: preenche dinâmica de requisitos da Semana 2" -m "- Adiciona personas dos integrantes
-- Registra respostas das quatro entrevistas
-- Documenta conflito, mediação e decisão do mini-workshop
-- Consolida requisitos funcionais (RF01–RF12) e não funcionais (RNF01–RNF08)"
+# Dinâmica de Requisitos — Semana 2
+
+## 1. Identificação do Sistema
+
+| Campo | Valor |
+|---|---|
+| **Sistema** | Sistema de Controle de Estoque para uma loja de eletrônicos de médio porte |
+| **Disciplina** | Engenharia de Software I |
+| **Semana** | 2 |
+
+---
+
+## 2. Divisão de Papéis
+
+| Integrante | Papel |
+|---|---|
+| Nathiara Santos | Engenheira de Requisitos |
+| Adna Cecilia | Dona do Sistema |
+| Augusto Saul | Usuário Final |
+| Fernando de Carvalho | Stakeholder Externo |
+| Mário Melo | Gestor do Sistema |
+
+---
+
+## 3. Personas
+
+### 3.1 Dona do Sistema — Adna Cecilia
+Proprietária da loja. Perfil empreendedor, pouca familiaridade com sistemas complexos. Busca visão clara do estoque, redução de perdas e decisões rápidas com base em informações confiáveis.
+
+### 3.2 Usuário Final — Augusto Saul
+Operador de balcão e estoque. Familiaridade média com tecnologia. Precisa de sistema simples, rápido e com poucos cliques para registrar e consultar movimentações.
+
+### 3.3 Stakeholder Externo — Fernando de Carvalho
+Contador e consultor fiscal. Preocupa-se com integridade, rastreabilidade e guarda dos registros para auditorias e apuração de impostos.
+
+### 3.4 Gestor do Sistema — Mário Melo
+Gerente operacional. Responsável por indicadores, compras e equipe. Precisa de relatórios gerenciais, controle de usuários e visão consolidada do estoque.
+
+---
+
+## 4. Entrevistas
+
+### 4.1 Entrevista com a Dona do Sistema
+
+**Perguntas**
+1. Quais são as principais necessidades da loja em relação ao controle de estoque?
+2. Quais problemas no controle de estoque mais preocupam você como dona da loja?
+3. Quais informações sobre os produtos e o estoque você considera importantes para acompanhar o funcionamento da loja?
+4. Que informações você gostaria de conseguir consultar rapidamente para tomar decisões?
+5. Quais tipos de movimentação de estoque você considera importante que sejam registrados?
+6. Você considera importante saber quem realizou cada movimentação? Por quê?
+7. Existe alguma informação ou registro que você considera importante manter para consultas futuras?
+8. Quais erros no controle de estoque poderiam trazer maiores prejuízos para a loja?
+9. O que você espera que o sistema melhore em relação à forma como o estoque é controlado atualmente?
+10. O que faria você considerar que o sistema realmente atende às necessidades da loja?
+
+**Respostas**
+1. Saber o que temos, o que está acabando e o que está parado; registrar entradas e saídas com segurança.
+2. Perder vendas por falta de produto, comprar em excesso e não perceber desvios ou furtos.
+3. Quantidade disponível, valor total, produtos mais vendidos, baixa saída, datas de entrada e saída.
+4. Saldo por produto, alertas de estoque mínimo, movimentações recentes e valor investido.
+5. Entradas por compra, saídas por venda, devoluções, ajustes de inventário e perdas/avarias.
+6. Sim, para responsabilizar e identificar erros ou desvios.
+7. Histórico de movimentações, relatórios mensais e registros de inventário.
+8. Falta de produto, excesso de compras, erros de contagem e registros incorretos.
+9. Mais agilidade, menos erros manuais, informações em tempo real e relatórios confiáveis.
+10. Conseguir confiar nos números, reduzir perdas e decidir com base no sistema.
+
+---
+
+### 4.2 Entrevista com o Usuário Final
+
+**Perguntas**
+1. Quais atividades relacionadas ao estoque você realiza no dia a dia?
+2. Como essas atividades são realizadas atualmente?
+3. Quais são as principais dificuldades encontradas nesse processo?
+4. Quais informações sobre um produto você precisa consultar durante o trabalho?
+5. Em quais situações você precisa registrar uma entrada ou saída?
+6. O que pode causar erros ou dificuldades durante esses registros?
+7. O que você considera importante para que o sistema seja fácil de utilizar?
+8. Que informações você gostaria de encontrar rapidamente?
+9. Existe alguma tarefa relacionada ao estoque que você considera demorada atualmente?
+10. O que você gostaria que o sistema facilitasse no seu trabalho?
+
+**Respostas**
+1. Recebimento, conferência, organização, atendimento e baixa de produtos vendidos.
+2. Planilhas e cadernos, com conferência manual.
+3. Demora para encontrar informações, risco de erro de digitação e falta de atualização em tempo real.
+4. Código, nome, quantidade disponível, preço e localização.
+5. Ao receber mercadoria, vender, devolver ou identificar avaria.
+6. Pressa, falta de padronização, informações incompletas e sistema lento.
+7. Interface simples, busca rápida, poucos campos obrigatórios e mensagens claras.
+8. Saldo do produto, histórico recente e alertas de estoque baixo.
+9. Contagem manual e conciliação de planilhas.
+10. Registrar e consultar movimentações de forma rápida e segura.
+
+---
+
+### 4.3 Entrevista com o Stakeholder Externo
+
+**Perguntas**
+1. Quais informações relacionadas ao estoque você considera importante que a loja mantenha registradas?
+2. Por que é importante manter esses registros?
+3. Que informações deveriam constar em um registro de movimentação?
+4. Existe alguma preocupação em relação à alteração ou exclusão desses registros?
+5. É importante identificar quem realizou cada movimentação? Por quê?
+6. Por quanto tempo essas informações deveriam ficar disponíveis?
+7. O que pode comprometer a confiabilidade dos registros?
+8. Em uma fiscalização ou auditoria, quais informações poderiam ser necessárias?
+9. Que situações relacionadas ao controle de estoque poderiam gerar problemas para a loja?
+10. Qual seria sua principal expectativa em relação ao sistema?
+
+**Respostas**
+1. Entradas, saídas, saldos, inventários e ajustes.
+2. Para comprovar movimentação real, apurar impostos e atender exigências legais.
+3. Data, hora, produto, quantidade, tipo, valor e responsável.
+4. Sim; registros não podem ser alterados ou excluídos sem rastreabilidade.
+5. Sim, para garantir responsabilidade e integridade.
+6. No mínimo 5 anos, conforme práticas fiscais.
+7. Lançamentos incompletos, ausência de responsável, alterações sem histórico e falta de padronização.
+8. Relatórios de movimentação, saldos, notas fiscais e identificação dos responsáveis.
+9. Divergências, omissão de receitas, perdas não justificadas e multas.
+10. Registros confiáveis, completos e rastreáveis.
+
+---
+
+### 4.4 Entrevista com o Gestor do Sistema
+
+**Perguntas**
+1. Quais informações você precisa acompanhar para gerenciar o estoque?
+2. Quais atividades de estoque precisam ser acompanhadas pela gestão?
+3. Quais problemas de estoque você gostaria de identificar rapidamente?
+4. Que tipos de relatórios ou consultas seriam úteis para a gestão?
+5. Quais movimentações deveriam ficar disponíveis para consulta posterior?
+6. Você considera importante acompanhar quem realizou cada movimentação?
+7. Existem diferentes tipos de usuários que deveriam ter diferentes responsabilidades no sistema?
+8. Que informações você gostaria de visualizar para auxiliar na tomada de decisões?
+9. Quais problemas o sistema deveria ajudar a evitar?
+10. O que você considera essencial para que o sistema atenda às necessidades da gestão?
+
+**Respostas**
+1. Saldo por produto, giro, produtos críticos, valor total e movimentações recentes.
+2. Entradas, saídas, ajustes, inventários e devoluções.
+3. Rupturas, excesso, divergências e movimentações suspeitas.
+4. Posição de estoque, movimentações por período, curva ABC e alertas.
+5. Todas, com data, usuário e motivo.
+6. Sim, para responsabilização e auditoria.
+7. Sim: administrador, gestor, operador e consulta.
+8. Indicadores, gráficos, histórico e alertas.
+9. Perdas, faltas, compras desnecessárias e erros de registro.
+10. Controle de acesso, relatórios confiáveis e atualização em tempo real.
+
+---
+
+## 5. Mini-workshop de Conflito
+
+### 5.1 Conflito identificado
+Usuário final quer agilidade e simplicidade; stakeholder externo e gestor exigem rastreabilidade completa e registros imutáveis. Conflito entre velocidade operacional e controle rigoroso.
+
+### 5.2 Mediação
+Agilidade mantida com interface simples e poucos campos manuais. Rastreabilidade garantida automaticamente (data, hora, usuário logado). Correções feitas por estorno ou novo lançamento, sem exclusão.
+
+### 5.3 Decisão do grupo
+Registro rápido com mínimo de campos manuais, mas com data, hora, usuário e tipo gravados automaticamente. Sem exclusão de registros; ajustes via novo lançamento. Relatórios completos para gestão e auditoria.
+
+---
+
+## 6. Requisitos levantados
+
+### Requisitos Funcionais (RF)
+
+| Código | Descrição |
+|---|---|
+| RF01 | Cadastrar produtos (código, nome, descrição, categoria, preço, quantidade mínima). |
+| RF02 | Registrar entradas (compra, devolução, ajuste). |
+| RF03 | Registrar saídas (venda, perda, avaria, ajuste). |
+| RF04 | Calcular e exibir saldo atualizado por produto. |
+| RF05 | Emitir alertas de estoque mínimo. |
+| RF06 | Consulta rápida por código ou nome. |
+| RF07 | Relatórios de movimentações por período, produto e usuário. |
+| RF08 | Relatório de posição atual do estoque. |
+| RF09 | Registrar automaticamente data, hora e usuário em cada movimentação. |
+| RF10 | Perfis de acesso: administrador, gestor, operador e consulta. |
+| RF11 | Impedir exclusão de movimentações; ajustes via novo lançamento. |
+| RF12 | Manter histórico de movimentações para consultas futuras. |
+
+### Requisitos Não Funcionais (RNF)
+
+| Código | Descrição |
+|---|---|
+| RNF01 | Interface simples e de rápida utilização para o operador. |
+| RNF02 | Tempo de resposta inferior a 2 segundos. |
+| RNF03 | Armazenamento seguro e íntegro dos registros. |
+| RNF04 | Retenção dos registros por no mínimo 5 anos. |
+| RNF05 | Acesso controlado por login e senha. |
+| RNF06 | Disponibilidade durante o horário comercial. |
+| RNF07 | Atualização das informações em tempo real. |
+| RNF08 | Permitir backup dos dados. |
