@@ -24,7 +24,8 @@
 *Preenchido pela integrante.*
 
 ### 3.2 Usuário Final — Augusto Saul
-*Preenchido pelo integrante responsável.*
+*Gael, Estoquista da Loja de eletrônicos, recentemente empregado, 
+mais apto com tecnologias atuais.*
 
 ### 3.3 Stakeholder Externo — Fernando de Carvalho
 *Preenchido pelo integrante responsável.*
@@ -67,7 +68,16 @@
 
 ### Respostas
 
-*Preenchido pelo integrante responsável.*
+**1- Contagem de produtos e analise de avarias.**
+**2- Manualmente com uma prancheta e um caderno.**
+**3- Falhas de contagem e ineficiencia** 
+**4- Nome, ID, Lote, entrada e saída de produtos**
+**5- Quando há recebimento de um lote novo e em todas as vendas**
+**6- Grande quantidade de produtos em estoque e só eu trabalhando**
+**7- Simplicidade pra contabilizar os produtos e uma boa interface**
+**8- O ID do produto, nome, lote e quantidade**
+**9- A contagem de produtos e a analise de avarias**
+**10- Eu gostaria que fosse mais automatizado, tipo a contagem e a identificação, que eu precisasse só escanear**
 
 ### 4.3 Entrevista com o Stakeholder Externo
 ### Perguntas
