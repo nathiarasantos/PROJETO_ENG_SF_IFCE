@@ -160,4 +160,31 @@ Também foi considerada importante a manutenção do histórico das movimentaç�
 
 ## 6. Requisitos levantados
 
-**Os requisitos serão consolidados após as entrevistas e o mini-workshop.**
+### 6.1 Requisitos Funcionais
+
+**RF-01 — Cadastro de produtos:** O sistema deve permitir cadastrar produtos com informações como código, nome, lote, quantidade e demais informações necessárias para sua identificação.
+
+**RF-02 — Registro de entradas:** O sistema deve permitir registrar a entrada de produtos no estoque, informando a quantidade e os dados relacionados à movimentação.
+
+**RF-03 — Registro de saídas:** O sistema deve permitir registrar a saída de produtos do estoque, informando a quantidade e os dados relacionados à movimentação.
+
+**RF-04 — Registro de perdas e ajustes:** O sistema deve permitir registrar perdas, avarias, devoluções e ajustes de inventário.
+
+**RF-05 — Consulta do estoque:** O sistema deve permitir consultar a quantidade e as informações dos produtos disponíveis no estoque.
+
+**RF-06 — Histórico de movimentações:** O sistema deve manter o histórico das movimentações realizadas, registrando informações como data, horário, tipo de movimentação e responsável.
+
+### 6.2 Requisitos Não Funcionais
+
+**RNF-01 — Usabilidade:** O sistema deve possuir uma interface simples e fácil de utilizar.
+
+**RNF-02 — Usabilidade:** As informações dos produtos e do estoque devem ser encontradas de forma rápida durante as atividades de consulta.
+
+**RNF-03 — Confiabilidade:** Os registros de entrada, saída, perdas e ajustes devem ser mantidos de forma consistente.
+
+**RNF-04 — Segurança:** O acesso às informações do sistema deve respeitar as permissões definidas para cada usuário.
+
+**RNF-05 — Segurança:** As movimentações realizadas devem identificar o usuário responsável pela operação.
+
+**RNF-06 — Confiabilidade:** O histórico das movimentações deve permanecer disponível para consultas posteriores.
+
