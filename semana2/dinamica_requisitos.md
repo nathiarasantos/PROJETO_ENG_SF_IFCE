@@ -31,7 +31,7 @@ mais apto com tecnologias atuais.*
 *Ricardo Mendes, Consultor fiscal da loja. Precisa de informações organizadas e confiáveis sobre as movimentações do estoque para consultas, conferências e possíveis auditorias.*
 
 ### 3.4 Gestor do Sistema — Mário Melo
-*Carlos Eduardo, Gerente operacional da loja e responsável pelo suporte técnico digital da loja. Acompanha o estoque, as compras e a equipe da loja, além de dar suporte à operação digital. Precisa de informações atualizadas sobre produtos, quantidades, movimentações e reposição. Solicita um painel centralizado para gerenciar as permissões dos usuários, como vendedores, estoque e gerência, além de recursos para acompanhar a operação do sistema. Busca a implantação de um sistema automatizado para substituir as conferências manuais.
+*Carlos Eduardo, Gerente operacional da loja e responsável pelo suporte técnico digital da loja. Acompanha o estoque, as compras e a equipe da loja, além de dar suporte à operação digital. Precisa de informações atualizadas sobre produtos, quantidades, movimentações e reposição. Solicita um painel centralizado para gerenciar as permissões dos usuários, como vendedores, estoque e gerência, além de recursos para acompanhar a operação do sistema. Busca a implantação de um sistema automatizado para substituir as conferências manuais.*
 
 ## 4. Entrevistas
 
