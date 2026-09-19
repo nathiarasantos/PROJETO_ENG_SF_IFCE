@@ -71,7 +71,9 @@ Outro ponto é a necessidade de manter o histórico das movimentações, identif
 
 - [ ] Viável
 
-- [ ] Viável com ressalvas
+- [*] Viável com ressalvas
 
 - [ ] Não viável
+
+O projeto é viável tecnicamente, economicamente e operacionalmente, pois pode melhorar o controle do estoque e reduzir problemas relacionados aos registros manuais. As principais ressalvas estão relacionadas à adaptação dos usuários, à conferência dos dados iniciais do estoque e à necessidade de manter os registros e os níveis de acesso corretamente configurados.
 
