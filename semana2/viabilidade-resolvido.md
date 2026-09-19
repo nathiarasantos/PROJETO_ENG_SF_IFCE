@@ -54,7 +54,10 @@ Requisitos já consolidados no requisitos.md:
 
 ## 3. Viabilidade Técnica
 
+O sistema é tecnicamente viável, pois as funcionalidades levantadas não dependem de tecnologias muito específicas ou de recursos que apresentem grande dificuldade de desenvolvimento. O cadastro de produtos, registro de entradas e saídas, consultas e histórico de movimentações são funcionalidades comuns em sistemas de controle de estoque.
 
+Um dos pontos de atenção é a necessidade de manter os registros de estoque consistentes, principalmente quando houver movimentações realizadas por diferentes usuários. Também será necessário controlar os níveis de acesso para evitar que usuários tenham acesso a informações que não fazem parte de suas atividades.
+Outro ponto é a necessidade de manter o histórico das movimentações, identificando o responsável por cada operação. Esse controle é importante para a rastreabilidade do estoque e para possíveis conferências ou auditorias.
 
 ## 4. Viabilidade Econômica
 
