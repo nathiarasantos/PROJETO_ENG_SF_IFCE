@@ -95,7 +95,17 @@ mais apto com tecnologias atuais.*
 
 ### Respostas
 
-*Preenchido pelo integrante responsável.*
+1. Registros de produtos, quantidades, entradas, saídas, datas, fornecedores, vendas e responsáveis.
+2. Para garantir organização, transparência e facilitar a identificação de erros ou irregularidades.
+3. Produto, quantidade, tipo de movimentação, data, horário, motivo e responsável.
+4. Sim. Alterações ou exclusões devem ser controladas e manter um histórico.
+5. Sim. Para garantir a rastreabilidade e identificar quem realizou cada operação.
+6. Pelo período exigido pela legislação e necessário para fiscalização e auditoria.
+7. Erros, movimentações não registradas, alterações indevidas, falhas no sistema e acessos não autorizados.
+8. Entradas, saídas, estoque, compras, vendas, ajustes, datas, horários e responsáveis.
+9. Divergências de estoque, falta de registros, perdas sem justificativa e alterações indevidas.
+10. Um sistema confiável, organizado e seguro, com histórico e rastreabilidade das movimentações.
+
 ### 4.4 Entrevista com o Gestor do Sistema
 ### Perguntas
 
