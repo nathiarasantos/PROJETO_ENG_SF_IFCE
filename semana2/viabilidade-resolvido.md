@@ -64,6 +64,14 @@ Outro ponto é a necessidade de manter o histórico das movimentações, identif
 
 
 ## 5. Viabilidade Operacional
+O principal ponto de atenção operacional é a adaptação dos usuários ao novo sistema.
+Atualmente, o controle do estoque é realizado manualmente com uma prancheta e um caderno, principalmente pelo estoquista, portanto será necessário um período de adaptação
+para realizar o sistema no dia a dia.
+A interface precisa ser simples e facilitar a consulta e o registro das movimentações, principalmente para evitar que o novo sistema torne as atividades mais demoradas. Também será necessário orientar os usuários sobre os diferentes níveis de acesso e sobre a importância de registar corretamente cada movimentação.
+Durante a implementação, pode ser necessário conferir o estoque físico antes de cadastrar os produtos no sistema.
+Isso ajuda a evitar que informações incorretas sejam utilizadas como base para o controle do estoque.
+
+
 
 
 
