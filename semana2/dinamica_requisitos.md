@@ -131,8 +131,7 @@ mais apto com tecnologias atuais.*
 
 ### Respostas
 
-*
-1. Para gerenciar o estoque, é importante acompanhar informações como código de barras, descrição, marca, modelo, categoria, número de série, quantidade atual, quantidade mínima, quantidade máxima e quantidade reservada. Também são importantes informações sobre custos, preço de venda, fornecedores e localização física dos produtos.
+*1. Para gerenciar o estoque, é importante acompanhar informações como código de barras, descrição, marca, modelo, categoria, número de série, quantidade atual, quantidade mínima, quantidade máxima e quantidade reservada. Também são importantes informações sobre custos, preço de venda, fornecedores e localização física dos produtos.
 2. A gestão precisa acompanhar as entradas, saídas, ajustes, inventários, devoluções e a necessidade de reposição dos produtos.
 3. É importante identificar rapidamente problemas como furtos ou perdas, obsolescência de produtos, divergências entre o estoque físico e o registrado e falhas na rastreabilidade.
 4. Seriam úteis relatórios sobre a situação do estoque, movimentações por período, giro dos produtos, produtos críticos e necessidades de reposição. A curva ABC também pode ajudar no acompanhamento dos produtos.
