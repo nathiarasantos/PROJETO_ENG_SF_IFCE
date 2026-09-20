@@ -59,6 +59,10 @@ O sistema é tecnicamente viável, pois as funcionalidades levantadas não depen
 Um dos pontos de atenção é a necessidade de manter os registros de estoque consistentes, principalmente quando houver movimentações realizadas por diferentes usuários. Também será necessário controlar os níveis de acesso para evitar que usuários tenham acesso a informações que não fazem parte de suas atividades.
 Outro ponto é a necessidade de manter o histórico das movimentações, identificando o responsável por cada operação. Esse controle é importante para a rastreabilidade do estoque e para possíveis conferências ou auditorias.
 
+**Riscos identificados:** inconsistências nos registros, acessos indevidos e falhas no histórico das movimentações.
+
+**Mitigação:** definir corretamente as permissões de cada usuário, manter os registros das movimentações e realizar testes para verificar se as operações de entrada, saída, perdas e ajustes estão sendo registradas corretamente.
+
 ## 4. Viabilidade Econômica
 
 O desenvolvimento do sistema pode gerar custos relacionados ao desenvolvimento inicial, manutenção e possíveis atualizações. Também pode existir um custo inicial para cadastrar e conferir os produtos que já estão no estoque da loja.
