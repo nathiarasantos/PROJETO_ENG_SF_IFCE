@@ -61,6 +61,11 @@ Outro ponto é a necessidade de manter o histórico das movimentações, identif
 
 ## 4. Viabilidade Econômica
 
+O desenvolvimento do sistema pode gerar custos relacionados ao desenvolvimento inicial, manutenção e possíveis atualizações. Também pode existir um custo inicial para cadastrar e conferir os produtos que já estão no estoque da loja.
+Por outro lado, o sistema pode reduzir o tempo gasto com o controle manual, diminuir erros de contagem e facilitar a identificação de perdas, produtos parados e falta de mercadorias. Essas melhorias podem ajudar a loja a tomar decisões de compra e reposição com mais segurança.
+
+Considerando que o controle atual é realizado manualmente e pode gerar erros e retrabalho, o investimento no sistema pode ser justificado pela redução desses problemas e pela melhoria do acompanhamento do estoque.
+
 
 
 ## 5. Viabilidade Operacional
