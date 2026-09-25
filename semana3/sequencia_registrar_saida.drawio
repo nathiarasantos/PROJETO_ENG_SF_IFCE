@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="24.7.17" type="device">
+  <diagram id="sd-saida" name="Sequencia - Registrar Saida">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ================= Lifelines ================= -->
+        <mxCell id="ll1" value="Operador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="160" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2" value=":Sistema" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ll3" value=":Produto" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="160" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ll4" value=":Movimentacao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="160" height="700" as="geometry" />
+        </mxCell>
+
+        <!-- ================= Mensagens ================= -->
+
+        <!-- 1 -->
+        <mxCell id="m1" value="1: selecionarProduto(codigo)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll1" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="60" as="sourcePoint" />
+            <mxPoint x="0" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 2 -->
+        <mxCell id="m2" value="2: buscarPorCodigo(codigo)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="110" as="sourcePoint" />
+            <mxPoint x="0" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 3 -->
+        <mxCell id="m3" value="3: produto" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll3" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="160" as="sourcePoint" />
+            <mxPoint x="0" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 4 -->
+        <mxCell id="m4" value="4: exibirFormularioSaida()" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="210" as="sourcePoint" />
+            <mxPoint x="0" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 5 -->
+        <mxCell id="m5" value="5: informarDados(quantidade, motivo)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll1" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="260" as="sourcePoint" />
+            <mxPoint x="0" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 6 -->
+        <mxCell id="m6" value="6: verificarDisponibilidade(quantidade)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="310" as="sourcePoint" />
+            <mxPoint x="0" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 7 -->
+        <mxCell id="m7" value="7: true" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll3" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="360" as="sourcePoint" />
+            <mxPoint x="0" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 8 -->
+        <mxCell id="m8" value="8: criar(SAIDA, produto, quantidade, usuario, motivo)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="410" as="sourcePoint" />
+            <mxPoint x="0" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 9 -->
+        <mxCell id="m9" value="9: movimentacao" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll4" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="460" as="sourcePoint" />
+            <mxPoint x="0" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 10 -->
+        <mxCell id="m10" value="10: atualizarEstoque(-quantidade)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="510" as="sourcePoint" />
+            <mxPoint x="0" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 11 -->
+        <mxCell id="m11" value="11: ok" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll3" target="ll2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="560" as="sourcePoint" />
+            <mxPoint x="0" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 12 -->
+        <mxCell id="m12" value="12: saidaRegistrada(id)" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;rounded=0;fontSize=10;" edge="1" parent="1" source="ll2" target="ll1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="610" as="sourcePoint" />
+            <mxPoint x="0" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
