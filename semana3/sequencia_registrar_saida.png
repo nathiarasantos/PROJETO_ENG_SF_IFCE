@@ -1,1 +1,15 @@
-
+Operador     :Sistema        :Produto       :Movimentacao
+   │             │               │               │
+   │─1:selecionarProduto(codigo)►│               │
+   │             │─2:buscarPorCodigo(codigo)────►│
+   │             │◄─3:produto────────────────────│
+   │◄─4:exibirFormularioSaida()──│               │
+   │             │               │               │
+   │─5:informarDados(quantidade, motivo)────────►│
+   │             │─6:verificarDisponibilidade(qtd)►
+   │             │◄─7:true──────────────────────│
+   │             │─8:criar(SAIDA, produto, qtd, usuario, motivo)──►
+   │             │◄─9:movimentacao──────────────│
+   │             │─10:atualizarEstoque(-qtd)───►│
+   │             │◄─11:ok───────────────────────│
+   │◄─12:saidaRegistrada(id)─────          
