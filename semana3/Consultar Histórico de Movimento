@@ -1,0 +1,27 @@
+sequenceDiagram
+    autonumber
+    actor Estoquista
+    actor Gerente
+    participant TelaHistorico as TelaHistorico<br/>(Interface)
+    participant MovimentacaoController as Movimentacao Controller
+    participant EstoqueService as EstoqueService<br/>(Lógica)
+    participant BancoDeDados as BancoDeDados<br/>(DB)
+
+    Estoquista->>TelaHistorico: Consultar Movimentações (Filtros)
+    activate TelaHistorico
+    TelaHistorico->>MovimentacaoController: solicitarHistorico(filtros)
+    activate MovimentacaoController
+    MovimentacaoController->>EstoqueService: validarPermissoes()
+    activate EstoqueService
+    EstoqueService->>BancoDeDados: buscarDadosFiltrados()
+    BancoDeDados-->>EstoqueService: Retorna registros (JSON/Cursor)
+    
+    alt Se Usuário == Gerente
+        EstoqueService->>MovimentacaoController: Inclui custos e relatórios gerenciais
+    end
+    
+    deactivate EstoqueService
+    MovimentacaoController-->>TelaHistorico: Renderiza dados na Tela
+    deactivate MovimentacaoController
+    TelaHistorico-->>Estoquista: Exibe histórico correspondente
+    deactivate TelaHistorico
