@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="S_pIU4Ic0CUCrRbJ7qD3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Med9R1qHhRsf1U3xubPz-11" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" target="Med9R1qHhRsf1U3xubPz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-12" connectable="0" parent="Med9R1qHhRsf1U3xubPz-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cadastrarProduto()" vertex="1">
+          <mxGeometry relative="1" x="-0.1041" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-13" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="Med9R1qHhRsf1U3xubPz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-14" connectable="0" parent="Med9R1qHhRsf1U3xubPz-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="informarDadosProduto()" vertex="1">
+          <mxGeometry relative="1" x="-0.2333" y="-1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Usuário" vertex="1">
+          <mxGeometry height="390" width="100" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-16" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" target="Med9R1qHhRsf1U3xubPz-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-17" connectable="0" parent="Med9R1qHhRsf1U3xubPz-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="verificarProduto()" vertex="1">
+          <mxGeometry relative="1" x="-0.1376" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-20" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="Med9R1qHhRsf1U3xubPz-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-21" connectable="0" parent="Med9R1qHhRsf1U3xubPz-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="salvarProduto()" vertex="1">
+          <mxGeometry relative="1" x="-0.2053" y="-1" as="geometry">
+            <mxPoint x="21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-24" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" target="Med9R1qHhRsf1U3xubPz-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-25" connectable="0" parent="Med9R1qHhRsf1U3xubPz-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cadastroConfirmado" vertex="1">
+          <mxGeometry relative="1" x="0.3014" y="-3" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Sistema" vertex="1">
+          <mxGeometry height="390" width="100" x="364" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-18" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" target="Med9R1qHhRsf1U3xubPz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-19" connectable="0" parent="Med9R1qHhRsf1U3xubPz-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="produtoNaoExiste" vertex="1">
+          <mxGeometry relative="1" x="0.1602" y="-2" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-22" edge="1" parent="1" source="Med9R1qHhRsf1U3xubPz-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" target="Med9R1qHhRsf1U3xubPz-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-23" connectable="0" parent="Med9R1qHhRsf1U3xubPz-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="produtoCadastrado" vertex="1">
+          <mxGeometry relative="1" x="0.0699" y="-1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Med9R1qHhRsf1U3xubPz-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Banco de dados" vertex="1">
+          <mxGeometry height="390" width="100" x="630" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
