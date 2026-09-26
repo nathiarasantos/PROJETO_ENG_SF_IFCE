@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="4EMYh-ffpqJHyH9JDul7">
+    <mxGraphModel dx="1414" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;" value="Sistema" vertex="1">
+          <mxGeometry height="400" width="190" x="319" as="geometry" />
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;" value="Banco de dados" vertex="1">
+          <mxGeometry height="400" width="190" x="637" as="geometry" />
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;" value="Usuario" vertex="1">
+          <mxGeometry height="400" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-7" edge="1" parent="1" source="KUX7nAQrWu8i1JlQ02IM-4" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="KUX7nAQrWu8i1JlQ02IM-2" value="RegistrarEntradaProduto()">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="254.5" y="120" />
+            </Array>
+            <mxPoint x="110.5" y="120" as="sourcePoint" />
+            <mxPoint x="190.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="ConfirmarEntradaProduto()">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="414" y="190" as="sourcePoint" />
+            <mxPoint x="733" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="ConfirmarQuantidadeProduto()">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="414" y="270" as="sourcePoint" />
+            <mxPoint x="733" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="InformarQuantidade()">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="254.5" y="160" />
+            </Array>
+            <mxPoint x="95" y="160" as="sourcePoint" />
+            <mxPoint x="414" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-12" edge="1" parent="1" source="KUX7nAQrWu8i1JlQ02IM-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" target="KUX7nAQrWu8i1JlQ02IM-2" value="EntradaConfirmada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="230" />
+            </Array>
+            <mxPoint x="440.5" y="230" as="sourcePoint" />
+            <mxPoint x="420.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="QuantidadeConfirmada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="310" />
+            </Array>
+            <mxPoint x="732" y="310" as="sourcePoint" />
+            <mxPoint x="414" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUX7nAQrWu8i1JlQ02IM-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;" value="EntradaRegistrada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="360" />
+            </Array>
+            <mxPoint x="414" y="360" as="sourcePoint" />
+            <mxPoint x="96" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
