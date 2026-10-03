@@ -1,0 +1,9 @@
+Requisitos (RFs e RNFs)
+•	O que muda / é adicionado (RFs): 
+o	RF01 - Transferência de Estoque: O sistema deve permitir a solicitação, aprovação e registro de envio/recebimento de itens entre a Matriz e a Franquia.
+o	RF02 - Gestão de Visibilidade/Acesso: O sistema deve permitir configurar o nível de visibilidade que o Franqueado possui sobre o estoque da Matriz (ex: consulta restrita vs. completa).
+o	RF03 - Gestão Multiloja: Cadastro de unidades/filiais e seus respectivos estoques isolados.
+•	O que muda (RNFs): 
+o	Segurança e Privacidade: Controle de permissões baseado em papéis (RBAC) para garantir que o Franqueado visualize apenas os dados autorizados pela Matriz.
+o	Disponibilidade / Desempenho: Sincronização centralizada (nuvem/API) para permitir consultas inter-unidades em cidades distintas.
+O que não muda: As operações diárias do Estoquista local (como registrar baixa por venda física na loja, consulta de saldo local ou inventário simples) permanecem inalteradas.abrangente e organizada para guiar o grupo na construção de cada um desses tópicos, com foco especial na justificativa do processo que estava sendo descrita.
