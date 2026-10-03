@@ -26,7 +26,7 @@
 
 ## 2. O Sistema
 
-O sistema tem como objetivo auxiliar no controle de estoque de uma loja de eletrônicos de médio porte. Ele deve permitir o acompanhamento dos produtos, das entradas e saídas, das perdas e ajustes, além de manter informações das movimentações para facilitar o controle e a consulta do estoque.
+O sistema tem como objetivo auxiliar no controle de estoque de uma loja de eletrônicos de médio porte e de suas unidades franqueadas. Ele deve permitir o acompanhamento dos produtos, das entradas e saídas, das perdas e ajustes, além de manter informações das movimentações para facilitar o controle e a consulta do estoque.
 
 ---
 
