@@ -33,7 +33,7 @@ O sistema exige o uso de Engenharia de Software porque envolve diferentes usuár
 
 A modularidade permite separar as diferentes partes do sistema, enquanto a qualidade está relacionada ao funcionamento correto e à organização das informações. A manutenibilidade facilita a realização de alterações quando novas necessidades surgirem. As boas práticas ajudam a manter os artefatos organizados e facilitar o trabalho entre os integrantes.
 
-🔗 [semana1/](semana1/)
+🔗 🔗 [semana1/](../semana1/)
 
 ## 4. Requisitos e Viabilidade (Semana 2)
 
@@ -43,7 +43,7 @@ A partir disso, foram consolidados seis requisitos funcionais e seis requisitos 
 
 O estudo de viabilidade analisou os aspectos técnico, econômico e operacional. Ao final, o projeto foi considerado viável dentro do contexto proposto.
 
-🔗 [semana2/requisitos.md](semana2/requisitos_reformulados.md) · [semana2/viabilidade.md](semana2/viabilidade.md)
+🔗 🔗 [requisitos.md](../semana2/requisitos.md) · [viabilidade.md](../semana2/viabilidade.md)
 
 ## 5. Modelagem UML (Semana 3)
 
@@ -51,13 +51,13 @@ Na Semana 3 foram desenvolvidos os diagramas UML para representar diferentes asp
 
 ### Diagramas produzidos
 
-* [Diagrama de casos de uso](semana3/diagrama_casos_uso_reformulado.drawio)
-* [Diagrama de classes](semana3/diagrama_classes_reformulado.drawio)
-* [Diagrama de sequência — Cadastrar Produto](semana3/diagrama_sequência_cadastrar_produto.drawio)
-* [Diagrama de sequência — Registrar Saída](semana3/sequencia_registrar_saida.drawio)
-* [Diagrama de sequência — Consultar Histórico de Movimentação](semana3/Consultar_Histórico_Movimento.drawio)
-* [Diagrama de sequência — Registrar Entrada de Produtos](semana3/Diagrama_Sequencia_Registrar_Produto.drawio)
-* [Diagrama de sequência _ Consultar Estoque](semana3/diagrama_sequencia_consultar_estoque.drawio)
+* [Diagrama de casos de uso](../semana3/diagrama_casos_uso_reformulado.drawio)
+* [Diagrama de classes](../semana3/diagrama_classes_reformulado.drawio)
+* [Diagrama de sequência — Cadastrar Produto](../semana3/diagrama_sequência_cadastrar_produto.drawio)
+* [Diagrama de sequência — Registrar Saída](../semana3/sequencia_registrar_saida.drawio)
+* [Diagrama de sequência — Consultar Histórico de Movimentação](../semana3/Consultar_Histórico_Movimento.drawio)
+* [Diagrama de sequência — Registrar Entrada de Produtos](../semana3/Diagrama_Sequencia_Registrar_Produto.drawio)
+* [Diagrama de sequência _ Consultar Estoque](../semana3/diagrama_sequencia_consultar_estoque.drawio)
 
 Os diagramas de sequência foram divididos entre os integrantes de acordo com as funcionalidades trabalhadas na Semana 2. Nathiara ficou responsável pelo diagrama de Cadastrar Produto e pelo diagrama de classes. Augusto Saul ficou responsável pelo diagrama relacionado ao registro de entrada de produtos. Adna Cecilia ficou responsável pelo registro de saída de produtos. Fernando de Carvalho ficou responsável pelo seu diagrama de sequência e pelos ajustes relacionados ao diagrama de casos de uso. Mário Melo ficou responsável pelo diagrama de sequência de consulta do histórico de movimentações.
 
