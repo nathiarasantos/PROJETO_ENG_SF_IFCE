@@ -51,7 +51,7 @@ Na Semana 3 foram desenvolvidos os diagramas UML para representar diferentes asp
 
 ### Diagramas produzidos
 
-* [Diagrama de casos de uso](semana3/diagrama_casos_uso.drawio)
+* [Diagrama de casos de uso](semana3/diagrama_casos_uso_reformulado.drawio)
 * [Diagrama de classes](semana3/diagrama_classes_reformulado.drawio)
 * [Diagrama de sequência — Cadastrar Produto](semana3/diagrama_sequência_cadastrar_produto.drawio)
 * [Diagrama de sequência — Registrar Saída](semana3/sequencia_registrar_saida.drawio)
